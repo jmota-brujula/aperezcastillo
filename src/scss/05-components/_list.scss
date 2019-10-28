@@ -1,0 +1,16 @@
+.#{$ns}list {
+    font-size: rem(18);
+    line-height: 1;
+    display:block;
+    position:relative;
+    &__item{
+        display: block;
+        padding:10px 0;
+        cursor: pointer;
+        margin-bottom: rem(5) 0;
+        &--active{
+            background:color(ns-secondary);
+            color:color(white);
+        }
+    }
+}

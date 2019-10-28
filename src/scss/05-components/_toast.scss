@@ -1,0 +1,27 @@
+.#{$ns}toast {
+  display: block;
+  position: absolute;
+  top: rem(60);
+  right: rem(30);
+  z-index: 99;
+  padding:rem(15) rem(20);
+  border-radius:rem(10);
+  background:color(primary);
+  &__container {
+    position: relative;
+    display: block;
+  }
+  &__text{
+      display:block;
+      color:color(white);
+      margin:0 0 rem(10) 0;
+  }
+  &__link{
+      display:block;
+      color:color(white);
+      text-decoration: none;
+  }
+  &--hidden{
+      display:none;
+  }
+}

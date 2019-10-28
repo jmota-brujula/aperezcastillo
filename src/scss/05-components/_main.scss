@@ -1,0 +1,43 @@
+.#{$ns}main {
+  font-size: rem(18);
+  line-height: 1;
+  display: block;
+  position: relative;
+  &__container {
+    display: block;
+    position: relative;
+    max-width: rem(600);
+    margin: 0 auto;
+  }
+  &__block {
+    display: block;
+    width: auto;
+    padding: rem(30) 0;
+    box-sizing: content-box;
+  }
+  &__actions {
+    display: block;
+    font-size: 0;
+  }
+  &__button {
+    font-size: rem(16);
+    display: inline-block;
+    padding: rem(10) rem(5);
+    vertical-align: middle;
+    margin: 0 0 rem(15) 0;
+    width: calc(50% - 5px);
+    box-sizing: border-box;
+    text-align: center;
+    background: color(ns-primary);
+    color: color(white);
+    margin: 0 rem(10) 0 0;
+    &:last-child {
+      margin: 0;
+    }
+    &:hover {
+      background: color(ns-secondary);
+      color: color(white);
+      text-decoration: none;
+    }
+  }
+}

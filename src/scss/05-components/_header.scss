@@ -1,0 +1,17 @@
+.#{$ns}header {
+  font-size: rem(18);
+  line-height: 1;
+  display: block;
+  background: color(ns-primary);
+  position: relative;
+  padding: rem(10) 0;
+  &__container {
+    display: block;
+    &--center{
+        text-align:center;
+    }
+  }
+  &__title{
+      color:color(white);
+  }
+}
